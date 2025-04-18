@@ -3,6 +3,8 @@
 ## Overview
 The MouseMove Application is a tool that simulates natural mouse movement on a selected monitor. Developed with Godot Engine 4.4, it automatically moves the mouse cursor in a human-like manner to maintain system activity.
 
+![](shot.png)
+
 ## Features
 - Mouse simulation with natural, human-like movements
 - Support for multi-monitor environments with specific monitor selection
