@@ -1,0 +1,4 @@
+*.uid
+.godot
+*.import
+*.godot

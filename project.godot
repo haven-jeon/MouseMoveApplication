@@ -1,0 +1,51 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="MMA"
+config/description="An application that simulates mouse movement as if controlled by a person."
+config/version="0.1"
+run/main_scene="uid://b82uf2t56dbt8"
+config/features=PackedStringArray("4.4", "C#")
+run/low_processor_mode=true
+config/author="Your Name"
+config/uuid="your-unique-uuid"
+
+[dotnet]
+
+project/assembly_name="MouseMove"
+
+[editor]
+
+editor/enable_vcs=false
+
+[general]
+
+config_version=4
+
+[global]
+
+global/auto_load_scene="res://scenes/main.tscn"
+
+[network]
+
+network/multiplayer/enabled=false
+
+[project]
+
+project/enable_debug=true
+project/enable_autosave=true
+project/auto_save_interval=5
+
+[rendering]
+
+renderer/rendering_method="mobile"
+vulkan/enable=true
