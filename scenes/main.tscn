@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://b82uf2t56dbt8"]
 
-[ext_resource type="Script" uid="uid://dfrm8g5yredp7" path="res://scripts/main.gd" id="1"]
-[ext_resource type="Script" uid="uid://brktwuhplc8bx" path="res://scripts/MouseMover.cs" id="2"]
+[ext_resource type="Script" uid="uid://0pp5osug6yo2" path="res://scripts/main.gd" id="1"]
+[ext_resource type="Script" uid="uid://bh1ti2qi8cy" path="res://scripts/MouseMover.cs" id="2"]
 
 [node name="Main" type="Control"]
 layout_mode = 3

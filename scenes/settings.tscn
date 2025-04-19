@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bf4me62jrx8yn"]
 
-[ext_resource type="Script" uid="uid://ce0l3kbh4en1c" path="res://scripts/settings.gd" id="1"]
+[ext_resource type="Script" uid="uid://b154oulu3wqo5" path="res://scripts/settings.gd" id="1"]
 
 [node name="Settings" type="Control"]
 layout_mode = 3
@@ -65,6 +65,14 @@ max_value = 10.0
 value = 5.0
 tick_count = 10
 ticks_on_borders = true
+
+[node name="ToggleKeyLabel" type="Label" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Toggle Key:"
+
+[node name="ToggleKey" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "U"
 
 [node name="ButtonsContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
 layout_mode = 2
